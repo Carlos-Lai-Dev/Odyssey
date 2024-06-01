@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77596041671a5b14a99239900c0f7d53, type: 3}
+  m_Name: Sword
+  m_EditorClassIdentifier: 
+  itemType: 1
+  itemName: GTX1060
+  itemIcon: {fileID: 21300000, guid: 7c10a677f5337cf4d96cc110d993bb67, type: 3}
+  itemAmount: 1
+  description: "\u795E\u575B\u9668\u843D\u8005\u2014\u2014\u65F6\u4EE3\u7684\u773C\u6CEA\nAD\uFF1A50-80\n\u66B4\u51FB\u7387\uFF1A20%"
+  stackable: 0
+  useableData: {fileID: 0}
+  weaponPrefab: {fileID: 5077283910784197323, guid: bec52b24149654a4c8ce050cee7ebf45, type: 3}
+  weaponData: {fileID: 11400000, guid: 93ba89654f35c3046a20c295f6830037, type: 2}
+  weaponAnimator: {fileID: 22100000, guid: f5b94173ab016a34881148a6a729ef91, type: 2}

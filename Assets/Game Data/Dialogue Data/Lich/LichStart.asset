@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f1e3b1567f9f3a44804a3f1383be19d, type: 3}
+  m_Name: LichStart
+  m_EditorClassIdentifier: 
+  dialoguePieces:
+  - ID: Piece01
+    image: {fileID: 21300000, guid: 944cc2a6ff01a3d4ea7bf3e07834fed7, type: 3}
+    text: "\u5E74\u8F7B\u4EBA\uFF0C\u4F60\u521A\u6765\u6751\u5B50\u91CC\u4E48\uFF1F"
+    quest: {fileID: 0}
+    options: []
+  - ID: Piece02
+    image: {fileID: 21300000, guid: 944cc2a6ff01a3d4ea7bf3e07834fed7, type: 3}
+    text: "\u542C\u8BF4\u68EE\u6797\u91CC\u6709\u52A8\u9759\uFF0C\u4F60\u5E2E\u6211\u53BB\u6253\u542C\u6253\u542C\uFF01"
+    quest: {fileID: 11400000, guid: b7ef46c7b20cd804ab88ac14a7be93ec, type: 2}
+    options:
+    - text: "\u597D\uFF0C\u4EA4\u7ED9\u6211\u5427\uFF01"
+      targetID: Piece03
+      takeQuest: 1
+    - text: "\u6211\u6682\u65F6\u6CA1\u7A7A\uFF0C\u62B1\u6B49"
+      targetID: 
+      takeQuest: 0
+  - ID: Piece03
+    image: {fileID: 21300000, guid: 944cc2a6ff01a3d4ea7bf3e07834fed7, type: 3}
+    text: "\u90A3\u8F9B\u82E6\u4F60\u4E86\uFF0C\u5929\u9ED1\u4E4B\u524D\u8D76\u7D27\u56DE\u6765\u5427\uFF01"
+    quest: {fileID: 0}
+    options: []

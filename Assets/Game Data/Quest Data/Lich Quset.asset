@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f9d987d5255b1545b51a92367d29496, type: 3}
+  m_Name: Lich Quset
+  m_EditorClassIdentifier: 
+  questName: "\u53D1\u751F\u4EC0\u4E48\u4E8B\u4E86\uFF1F"
+  description: "\u53BB\u68EE\u6797\u7684\u53F2\u83B1\u59C6\u8EAB\u4E0A\u627E\u627E\u7EBF\u7D22"
+  isStarted: 0
+  isFinished: 0
+  isComplete: 0
+  questRequires:
+  - name: Slime
+    requireAmount: 4
+    currentAmount: 0
+  - name: Beholder
+    requireAmount: 1
+    currentAmount: 0
+  rewards:
+  - itemData: {fileID: 11400000, guid: e7ae62e4cb14bbd41bf64a33cf6054b0, type: 2}
+    amount: 1

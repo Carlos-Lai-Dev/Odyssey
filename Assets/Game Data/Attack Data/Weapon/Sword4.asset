@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77596041671a5b14a99239900c0f7d53, type: 3}
+  m_Name: Sword4
+  m_EditorClassIdentifier: 
+  itemType: 1
+  itemName: RTX3080Ti
+  itemIcon: {fileID: 21300000, guid: 35a3554955a98b049b19c5fbf019d1ca, type: 3}
+  itemAmount: 1
+  description: "\u6700\u5F3A\uFF01\uFF01\uFF01\nAD\uFF1A90-120\n\u66B4\u51FB\u7387\uFF1A30%"
+  stackable: 0
+  useableData: {fileID: 0}
+  weaponPrefab: {fileID: 4514732406040974730, guid: d0702967bd1d9d1459799aa14ad90c61, type: 3}
+  weaponData: {fileID: 11400000, guid: d80921d49bf3ef441b551595fc5055db, type: 2}
+  weaponAnimator: {fileID: 22100000, guid: 07a5672edf1af624eae2242e41ed933a, type: 2}

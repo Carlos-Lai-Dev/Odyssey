@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77596041671a5b14a99239900c0f7d53, type: 3}
+  m_Name: Sword1
+  m_EditorClassIdentifier: 
+  itemType: 1
+  itemName: GTX1080
+  itemIcon: {fileID: 21300000, guid: b5154162fcb4c8943b3e40a8efc43f32, type: 3}
+  itemAmount: 1
+  description: "\u4E0B\u4F4D\u6700\u5F3A\uFF01\nAD\uFF1A60-90\n\u66B4\u51FB\u7387\uFF1A20%"
+  stackable: 0
+  useableData: {fileID: 0}
+  weaponPrefab: {fileID: 9204073055100373077, guid: a4776e21c8b1c6d499b3203beac584bb, type: 3}
+  weaponData: {fileID: 11400000, guid: 1a537603c9d5c5e438f6a6162b6579f7, type: 2}
+  weaponAnimator: {fileID: 22100000, guid: f5b94173ab016a34881148a6a729ef91, type: 2}

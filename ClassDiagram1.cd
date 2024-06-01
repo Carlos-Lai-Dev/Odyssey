@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="EnemyController">
+    <Position X="62.25" Y="33.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAABQoECMISSABIAIAAgAAANQIAQgIAYAAAIAACkA=</HashCode>
+      <FileName>Assets\Scripts\Scripts Controller\EnemyController.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Golem">
+    <Position X="59.25" Y="35" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAACAAAAABEAAEAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Enemy\Golem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Grunt">
+    <Position X="65.5" Y="35" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAEAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Enemy\Grunt.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="EnemyStates">
+    <Position X="62.25" Y="34.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAAAAAAAAAAAQAAAgAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Scripts Controller\EnemyController.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>

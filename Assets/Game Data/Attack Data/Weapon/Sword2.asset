@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77596041671a5b14a99239900c0f7d53, type: 3}
+  m_Name: Sword2
+  m_EditorClassIdentifier: 
+  itemType: 1
+  itemName: RTX2060
+  itemIcon: {fileID: 21300000, guid: 7963c1bebfa43c846ad669ac5e9f0216, type: 3}
+  itemAmount: 1
+  description: "\u65B0\u7684\u65F6\u4EE3\nAD\uFF1A70-100\n\u66B4\u51FB\u7387\uFF1A20%"
+  stackable: 0
+  useableData: {fileID: 0}
+  weaponPrefab: {fileID: 4099828819741918695, guid: 89681a21d92626942b2324d33aaef2a7, type: 3}
+  weaponData: {fileID: 11400000, guid: 7a6c85e9e6a0de64388fecee92142e5b, type: 2}
+  weaponAnimator: {fileID: 22100000, guid: f5b94173ab016a34881148a6a729ef91, type: 2}

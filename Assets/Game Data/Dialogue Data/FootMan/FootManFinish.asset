@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f1e3b1567f9f3a44804a3f1383be19d, type: 3}
+  m_Name: FootManFinish
+  m_EditorClassIdentifier: 
+  dialoguePieces:
+  - ID: Piece01
+    image: {fileID: 21300000, guid: d8f4f889919c1f543ac773abdc3428b6, type: 3}
+    text: "\u8C01\u662F\u4E0B\u4E00\u4E2AIkun\uFF1F"
+    quest: {fileID: 0}
+    options: []

@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f1e3b1567f9f3a44804a3f1383be19d, type: 3}
+  m_Name: FootManStart
+  m_EditorClassIdentifier: 
+  dialoguePieces:
+  - ID: Piece01
+    image: {fileID: 21300000, guid: d8f4f889919c1f543ac773abdc3428b6, type: 3}
+    text: "\u4F60\u597D\u554A\uFF0C\u52C7\u58EB\uFF01"
+    quest: {fileID: 0}
+    options: []
+  - ID: Piece02
+    image: {fileID: 21300000, guid: d8f4f889919c1f543ac773abdc3428b6, type: 3}
+    text: "\u6211\u662F\u4E00\u540D\u7EC3\u4E60\u65F6\u95F4\u957F\u8FBE\u4E24\u5E74\u534A\u7684\u5076\u50CF\u7EC3\u4E60\u751F\uFF0C\u4F60\u60F3\u52A0\u5165\u6211\u4EEC\u4E48\uFF1F"
+    quest: {fileID: 0}
+    options:
+    - text: "\u53CA\u4F60\u592A\u7F8E\uFF01"
+      targetID: Piece03
+      takeQuest: 0
+    - text: "\u6211\u4E0DKun\u4E86"
+      targetID: 
+      takeQuest: 0
+  - ID: Piece03
+    image: {fileID: 21300000, guid: d8f4f889919c1f543ac773abdc3428b6, type: 3}
+    text: "\u793E\u4E48\uFF1F\u4F60\u8FD8\u6CA1\u6709\u7BEE\u7403\u548C\u80CC\u5E26\u88E4\uFF1F\u8FD9\u53EF\u662F\u8EAB\u4E3A\u4E00\u540D\u7EC3\u4E60\u751F\u7684\u6807\u914D\u554A\uFF01"
+    quest: {fileID: 0}
+    options: []
+  - ID: Piece04
+    image: {fileID: 21300000, guid: d8f4f889919c1f543ac773abdc3428b6, type: 3}
+    text: "\u8FD9\u6837\u5427\uFF0C\u4F60\u53BB\u68EE\u6797\u91CC\u7684\u53F2\u83B1\u59C6\u8EAB\u4E0A\u627E\u627E\u770B\uFF0C\u5230\u65F6\u5019\u7A7F\u6765\u89C1\u6211\uFF0C\u6211\u4F1A\u7ED9\u4F60IKun\u7684\u8BC1\u660E\uFF0C\u4EE5\u53CA\u4E30\u539A\u7684\u5956\u52B1\u7684\uFF01"
+    quest: {fileID: 11400000, guid: efc2065774fbdab4d8b94de76ac7199b, type: 2}
+    options:
+    - text: "\u6211\u8FD9\u5C31\u53BB\uFF01"
+      targetID: Piece05
+      takeQuest: 1
+    - text: "\u592A\u9EBB\u70E6\u4E86\uFF0C\u7B97\u4E86"
+      targetID: 
+      takeQuest: 0
+  - ID: Piece05
+    image: {fileID: 21300000, guid: d8f4f889919c1f543ac773abdc3428b6, type: 3}
+    text: "\u5FEB\u53BB\u5FEB\u56DE\u5427\uFF0C\u795D\u4F60\u597D\u8FD0\uFF01"
+    quest: {fileID: 0}
+    options: []

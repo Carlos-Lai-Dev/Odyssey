@@ -1,0 +1,89 @@
+ManifestFileVersion: 0
+CRC: 1826283579
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: e840cd8b75f3357b91d0c11c7155f1fd
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c0b0d0c5b815be930f596713cb54f9bd
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 54
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 90
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 77596041671a5b14a99239900c0f7d53, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: dc67b1c71d4556b4a9654faf9c8f8279, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 951ca5b15ccc21645b4084217b176d60, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 7a25cc7ecfe85584abb08a4aa494fdac, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: c1dfc734faf0d05409aefb7d448e5a36, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: f3e210e4eac865f4dbb390e1c727adbf, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: b242b49649ddce2429638df611528846, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: cbe67b405669b904bad0aca938a65147, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: ea099a8c13124644883caa2bd2724c02, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 6ec81674d586f7542b6f2b799c8d665b, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 135
+  Script: {instanceID: 0}
+- Class: 136
+  Script: {instanceID: 0}
+- Class: 137
+  Script: {instanceID: 0}
+- Class: 195
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+- Class: 221
+  Script: {instanceID: 0}
+- Class: 222
+  Script: {instanceID: 0}
+- Class: 224
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers:
+- AssemblyName: Assembly-CSharp
+  ClassName: LootSpawner/LootItem
+- AssemblyName: UnityEngine.CoreModule
+  ClassName: UnityEngine.Events.PersistentCallGroup
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
+Assets:
+- Assets/Prefabs/Character/Beholder.prefab
+Dependencies: []
